@@ -8,8 +8,12 @@
  * ==============================================
  */
 function p($arr){
-    echo "<pre>";
-    print_r($arr);
+    echo "<pre><hr>";
+    if(is_bool($arr)){
+        var_dump($arr);
+    } else {
+        print_r($arr);
+    }
     die;
 }
 
@@ -19,7 +23,7 @@ $cas_host = '192.168.1.112';
 
 # 2 CAS Server 路径
 # 此配置是你搭建的CAS SSO SERVER服务的路径
-$cas_context = '/cas';
+$cas_context = '/cas/casbin/aplum_mis/';
 
 // 3 CAS server 端口
 # 此配置是你搭建的CAS SSO SERVER服务的端口
