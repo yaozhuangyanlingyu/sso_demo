@@ -24,7 +24,7 @@ $cas_host = 'localhost';
 
 # 2 CAS Server 路径
 # 此配置是你搭建的CAS SSO SERVER服务的路径
-$cas_context = '/cas/casbin/admin_manage/';
+$cas_context = '/cas/casbin/aplum_manage/';
 
 // 3 CAS server 端口
 # 此配置是你搭建的CAS SSO SERVER服务的端口

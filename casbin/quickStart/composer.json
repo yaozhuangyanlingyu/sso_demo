@@ -1,0 +1,5 @@
+{
+    "require": {
+        "casbin/casbin": "^3.20"
+    }
+}
