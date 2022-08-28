@@ -19,16 +19,17 @@ function p($arr){
 
 # 1 CAS Server 主机域名
 # 此配置是你搭建的CAS SSO SERVER服务的域名
-//$cas_host = '192.168.1.112';
-$cas_host = 'localhost';
+$cas_host = 'dev03.aplum-inc.com';
+//$cas_host = 'test-casdoor-gateway.aplum-inc.com';
 
 # 2 CAS Server 路径
 # 此配置是你搭建的CAS SSO SERVER服务的路径
-$cas_context = '/cas/casbin/aplum_manage/';
+$cas_context = '/cas/casbin/app-built-in/';
 
 // 3 CAS server 端口
 # 此配置是你搭建的CAS SSO SERVER服务的端口
-$cas_port = 8200;
+$cas_port = 8261;
+//$cas_port = 80;
 
 // 4 CAS server 证书
 # 此配置是你搭建的CAS SSO SERVER服务的证书文件
