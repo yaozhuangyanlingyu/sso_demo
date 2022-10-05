@@ -1,10 +1,4 @@
 <?php
-/*
-if(isset($_GET['ticket'])){
-    print_r($_GET);
-    die;
-}
-*/
 require('vendor/autoload.php');
 use \phpCAS;
 
